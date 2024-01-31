@@ -1,7 +1,7 @@
 {
   "name": "crm-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "<p align=\"center\">\r   <a href=\"#\"><img src=\"https://capsule-render.vercel.app/api?type=rect&color=ffff00&height=100&section=header&text=CRM&fontSize=60%&fontColor=ffffff\" alt=\"website title image\"></a>\r   <h2 align=\"center\">👉 Customer relations management in MERN STACK👈</h2>\r </p>\r </p>",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -19,5 +19,7 @@
     "mongodb": "^5.7.0",
     "mongoose": "^6.10.1",
     "nodemon": "^3.0.1"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
