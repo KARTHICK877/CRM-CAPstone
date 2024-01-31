@@ -4,28 +4,15 @@ import dotenv from "dotenv";
 dotenv.config();
 const connectionString = process.env.CONNECTION_URL;
 
-const mongoConnection = async () => {
+async function mongoConnection() {
   const client = new MongoClient(connectionString);
 
-  try {
-    await client.connect();
-    console.log("Database connected successfully");
-    return client;
-  } catch (error) {
-    console.error("Error connecting to the database:", error);
-    throw error; // Re-throw the error to indicate a failed connection
-  }
-};
+  await client.connect();
 
-// Export a promise that resolves to the connected client
-export const client = mongoConnection();
+  console.log("Database connected successfully");
 
-// Example usage in another file:
-// import { clientPromise } from "./yourDatabaseModule";
-// (async () => {
-//   const client = await clientPromise;
-//   // Now you can use the connected client
-// })();
+  return client;
+}
 
 //initializing DB
-// export const client = await mongoConnection();
+export const client = await mongoConnection();
