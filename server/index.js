@@ -25,6 +25,8 @@ app.use("/", loginRouter);
 app.use("/users", isAuthenticated, userRouter);
 app.use("/leads", isAuthenticated, leadRouter);
 app.use("/request", isAuthenticated, requestRouter);
-
+app.get('/', (req, res) => {
+    res.send('crm working good');
+  });
 // start listening server
 app.listen(PORT, () => console.log(`Server started in localhost:${PORT}`));
