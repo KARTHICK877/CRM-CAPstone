@@ -1,14 +1,11 @@
 {
-  "name": "crm-backend",
-  "version": "1.0.0",
-  "description": "<p align=\"center\">\r   <a href=\"#\"><img src=\"https://capsule-render.vercel.app/api?type=rect&color=ffff00&height=100&section=header&text=CRM&fontSize=60%&fontColor=ffffff\" alt=\"website title image\"></a>\r   <h2 align=\"center\">👉 Customer relations management in MERN STACK👈</h2>\r </p>\r </p>",
-  "main": "index.js",
+  
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
