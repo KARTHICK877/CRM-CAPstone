@@ -50,15 +50,15 @@ This CRM system is designed to facilitate the management of customer inquiries a
   - Leveraged MongoDB, a NoSQL database, to store and manage user and CRM data.
   - Ensured secure user authentication with JSON Web Tokens (JWT).
 
-## Frontend Deployed Website : https://preeminent-selkie-392ee3.netlify.app/
+## Frontend Deployed Website : https://shaibuhan-crm-frontend.netlify.app/
 
-## Backend Deployed Url: https://crmbackend-b10n.onrender.com
+## Backend Deployed Url: https://shaibuhan-crm-capstone-czfq.onrender.com
 
 ## Github Repositories
 
-Frontend Link : https://github.com/Sanyuvi/frontendcrm
+Frontend Link : 
 
-Backend Link : https://github.com/Sanyuvi/CRM-Backend
+Backend Link : 
 
 # Credentials to try out the app :
 
@@ -66,19 +66,19 @@ Backend Link : https://github.com/Sanyuvi/CRM-Backend
 
 email : admin@gmail.com
 
-password: admin@123
+password: admin@gmail.com
 
 ### For Manager Sign in
 
 email : manager@gmail.com
 
-password: manager@123
+password: manager@gmail.com
 
 ### For Employee Sign in
 
 email : employee@gmail.com
 
-password: employee@123
+password: employee@gmail.com
 
 ## ⭐ Features of the app
 
@@ -155,4 +155,4 @@ To run the application locally:
 
 For questions, inquiries, or additional information, please don't hesitate to contact the project maintainers:
 
-- Santhosh - [santhoshh2197@gmail.com]
+- Shaibuhan - [shaifkhanpilot@gmail.com]
