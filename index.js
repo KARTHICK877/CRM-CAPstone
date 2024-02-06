@@ -6,7 +6,7 @@ import { leadRouter } from "./Routes/lead.js";
 import { requestRouter } from "./Routes/servicerequest.js";
 import { isAuthenticated } from "./Authentication/auth.js";
 import { signUpRouter } from "./Routes/signup.js";
-
+import { loginRouter } from "./Routes/login.js";
 import bcrypt from "bcrypt";
 import { v4 as uuidv4 } from 'uuid';
 // import { Register } from './Routes/Register.js';
@@ -24,7 +24,7 @@ app.use(express.json());
 const users = [];
 // app.use('/', Register);
 app.use("/", signUpRouter);
-
+app.use("/", loginRouter);
 app.use("/users", isAuthenticated, userRouter);
 app.use("/leads", isAuthenticated, leadRouter);
 app.use("/request", isAuthenticated, requestRouter);
@@ -61,7 +61,7 @@ app.post('/register', async (req, res) => {
 
 // Login Route
 // Login Route
-app.post('/login', async (req, res) => {
+app.post('/loginn', async (req, res) => {
   try {
     const { email, password } = req.body;
 
